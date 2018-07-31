@@ -1,7 +1,8 @@
 package geekbrains.lesson1;
 import java.awt.*;
 
-public class Sprite {
+public class Sprite implements GameObject{
+
     protected float x;
     protected float y;
     protected float halfWidth;
@@ -38,6 +39,14 @@ public class Sprite {
         return 2f * halfHeight;
     }
 
-    void update(GameCanvas canvas, float deltaTime) {}
-    void render(GameCanvas canvas, Graphics g) {}
+
+    @Override
+    public void update(GameCanvas canvas, float deltaTime) {
+
+    }
+
+    @Override
+    public void render(GameCanvas canvas, Graphics g) {
+
+    }
 }

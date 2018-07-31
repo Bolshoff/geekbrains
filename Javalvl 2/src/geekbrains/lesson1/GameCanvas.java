@@ -2,7 +2,7 @@ package geekbrains.lesson1;
 
 import javax.swing.*;
 import java.awt.*;
-import java.util.Timer;
+
 
 public class GameCanvas extends JPanel {
 
@@ -18,8 +18,7 @@ public class GameCanvas extends JPanel {
                 (int)(Math.random() * 255)
                 ));
 
- //       Timer timer = new Timer(true);
- //       timer.scheduleAtFixedRate(setBackground(), 0, 10*1000);
+
     }
 
     @Override
